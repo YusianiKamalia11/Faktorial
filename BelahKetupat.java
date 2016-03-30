@@ -18,13 +18,15 @@ public class BelahKetupat {
  int n = sc.nextInt();
  //bagian atas
  for(int x=n; x>=1; x--)
+ for(int x=n; x>=1; x--)
   {
    for(int y=x-1; y>=1; y--){
     System.out.print(" ");
+    for(int x=n; x>=1; x--)
    }
    for(int z=1; z<=((n+1)-x)*2; z++){
     System.out.print("*");
-   }
+   }for(int x=n; x>=1; x--)
   System.out.println();
   }
  
